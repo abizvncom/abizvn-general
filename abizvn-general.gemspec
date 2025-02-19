@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", "~> 7.2"
-  spec.add_dependency "commonbase", "~> 0"
+  spec.add_dependency "commonbase", "~> 0", '>= 0.1.3'
 end
