@@ -8,8 +8,10 @@ ActiveAdmin.register Abizvn::General::GeneralSetting, as: 'general_setting' do
   end
 
   form do |f|
+    f.semantic_errors *f.object.errors.attribute_names
+
     f.inputs do
-      f.input :group if params[:action] == 'new'
+      f.input :group
       f.input :code
       f.input :value
       f.input :order
