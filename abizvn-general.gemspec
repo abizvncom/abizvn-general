@@ -23,7 +23,8 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", "~> 7.2"
-  spec.add_dependency "commonbase", "~> 0", '>= 0.2.1'
+  spec.add_dependency "commonbase", "~> 0.2"
+  spec.add_dependency "jsonapi-serializer", "~> 2.2"
 
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'shoulda-matchers'
